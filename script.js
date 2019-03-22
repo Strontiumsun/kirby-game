@@ -6,13 +6,13 @@ $(document).ready(function () {
     $(".colorizer").on("click", function () {
         console.log("clicked a button " + $(this).val());
         if ($(this).val() === "green") {
-            $("#original-bow").attr("id", "green-button");
+            $(".original-bow").attr("id", "green-button");
         }
         else if ($(this).val() === "blue") {
-            $("#original-bow").attr("id", "blue-button");
+            $(".original-bow").attr("id", "blue-button");
         }
         else if ($(this).val() === "yellow") {
-            $("#original-bow").attr("id", "yellow-button");
+            $(".original-bow").attr("id", "yellow-button");
         }
     })
 

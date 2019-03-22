@@ -1,7 +1,7 @@
 img {
     width: 200px;    
 }
-#original-bow{
+.original-bow{
     -webkit-filter: hue-rotate(0deg) brightness(100%);
     filter: hue-rotate(0deg) brightness(100%);
 }
